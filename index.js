@@ -17,9 +17,11 @@ form.addEventListener('submit', (e) => {
   Library.deleteBook();
   Library.addLocalStorage(libraryContainer);
 });
+
 window.addEventListener('DOMContentLoaded', () => {
   Library.displayBooks();
   Library.deleteBook();
 });
+
 setTime();
 singlePage();

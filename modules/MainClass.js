@@ -28,6 +28,7 @@ class Library {
   // display in the DOM
   static displayBooks = () => {
     /* eslint-disable no-use-before-define */
+    /* eslint-disable import/no-mutable-exports */
     const displayData = libraryContainer.map(
       (item) => `
         <div class='books'>
@@ -57,12 +58,12 @@ class Library {
   }
 
   static removeLibraryArray = (id) => {
-    const libraryContainer = libraryContainer.filter((item) => item.id !== +id);
+    libraryContainer = libraryContainer.filter((item) => item.id !== +id);
     Library.addLocalStorage(libraryContainer);
   }
 }
 
 // store values in a container referrenced by local storag
-const libraryContainer = Library.getLocalStorage();
+let libraryContainer = Library.getLocalStorage();
 
 export { Library, libraryContainer };
