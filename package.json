@@ -1,0 +1,19 @@
+{
+  "name": "awesome-books-es6-modules",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adholah96/Awesome-Books-ES6-Modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adholah96/Awesome-Books-ES6-Modules/issues"
+  },
+  "homepage": "https://github.com/Adholah96/Awesome-Books-ES6-Modules#readme"
+}
